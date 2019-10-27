@@ -1,0 +1,10 @@
+<script>
+var Customer=function(Name){
+var re = /(\w+)\s(\w+)/;
+var str = Name;
+var newstr = str.replace(re, '$2, $1');
+document.write(newstr);
+}
+
+Customer("zengxinwen barry");
+</script>
